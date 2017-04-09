@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
   <Beta>True</Beta>
-  <Category>MediaServer:Video MediaServer:Music MediaServer:Photos</Category>
+  <Category>MediaApp:Video</Category>
   <Date></Date>
   <Changes>
     [center][img width='300px' src=''][/center]
