@@ -48,6 +48,6 @@
     </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:6080]</WebUI>
-  <Icon>https://avatars3.githubusercontent.com/u/1565263?v=3&s=400</Icon>
+  <Icon>https://raw.githubusercontent.com/stevotdo/docker-templates/master/stevotdo/img/docker-videotools-vnc.png</Icon>
   <Config Name="Config Directory" Target="/config" Default="/mnt/cache/app_config/videotools" Mode="rw" Description="This path is where Videotools will store it's configuration files." Type="Path" Display="always" Required="true" Mask="false"/>
 </Container>
