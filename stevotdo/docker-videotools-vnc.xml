@@ -51,7 +51,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-<WebUI>http://[IP]:[PORT:6080</WebUI>
+<WebUI>http://[IP]:[PORT:6080]</WebUI>
   <Icon>https://raw.githubusercontent.com/stevotdo/docker-templates/master/stevotdo/img/docker-videotools-vnc.png</Icon>
   <ExtraParams></ExtraParams>
 <DonateText></DonateText>
