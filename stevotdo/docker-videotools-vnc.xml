@@ -15,8 +15,8 @@
 
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
   [b]/config[/b] Where app should store settings and metadata\logs and configuration[br]
-    [b]/In[/b] : in this path, Location of Video Files to convert.
-	[b]/Out[/b] : in this path, Location for converted video files.
+    [b]/In[/b] : Location of Video Files to convert.[br]
+	[b]/Out[/b] : Location for converted video files.[br]
   </Description>
   <Overview></Overview>
   <Project>https://github.com/stevotdo/</Project>
