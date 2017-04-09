@@ -20,7 +20,7 @@
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>
-  <Environment/>
+  </Environment>
   <Networking>
     <Mode>bridge</Mode>
 	 <Publish>
