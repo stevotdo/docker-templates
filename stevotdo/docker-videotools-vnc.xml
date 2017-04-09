@@ -23,31 +23,6 @@
   </Environment>
   <Networking>
     <Mode>bridge</Mode>
-	 <Publish>
-      <Port>
-        <HostPort>6080</HostPort>
-        <ContainerPort>80</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-    </Publish>
-  </Networking>
-  <Data>
-    <Volume>
-      <HostDir>/mnt/cache/appdata/videotools/</HostDir>
-      <ContainerDir>/config</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-	    <Volume>
-      <HostDir>/mnt/user/appdata/videotools/In</HostDir>
-      <ContainerDir>/In</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-	    <Volume>
-      <HostDir>/mnt/user/appdata/videotools/Out</HostDir>
-      <ContainerDir>/Out</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-  </Data>
   <WebUI>http://[IP]:[PORT:6080]</WebUI>
   <Icon>https://raw.githubusercontent.com/stevotdo/docker-templates/master/stevotdo/img/docker-videotools-vnc.png</Icon>
   <Config Name="Config Directory" Target="/config" Default="/mnt/cache/app_config/videotools" Mode="rw" Description="This path is where Videotools will store it's configuration files." Type="Path" Display="always" Required="true" Mask="false"/>
