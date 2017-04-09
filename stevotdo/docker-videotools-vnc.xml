@@ -19,6 +19,7 @@
   <Repository>stevotdo/docker-videotools-vnc</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
+  <Environment>
   <Environment/>
   <Networking>
     <Mode>bridge</Mode>
