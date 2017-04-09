@@ -24,12 +24,6 @@
   <Repository>https://github.com/stevotdo/</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
-  <Environment>
-    <Variable>
-      <Name></Name>
-      <Value></Value>
-    </Variable>
-  </Environment>
   <Networking>
     <Mode>bridge</Mode>
       <Publish>
