@@ -21,7 +21,7 @@
   <Overview></Overview>
   <Project>https://github.com/stevotdo/</Project>
   <Registry>https://registry.hub.docker.com/u/stevotdo/docker-videotools/</Registry>
-  <Repository>https://github.com/stevotdo/docker-videotools/</Repository>
+  <Repository>stevotdo/docker-videotools</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
