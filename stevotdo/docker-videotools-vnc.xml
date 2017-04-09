@@ -15,7 +15,6 @@
   Vnc Access for Handbrake,MKVToolnix, Etc [br]
 
   [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
-  [b]/config[/b] Where app should store settings and metadata\logs and configuration[br]
     [b]/In[/b] : Location of Video Files to convert.[br]
 	[b]/Out[/b] : Location for converted video files.[br]
   </Description>
