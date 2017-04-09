@@ -1,35 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Container version="2">
+<Container>
   <Beta>True</Beta>
-  <Category>MediaApp:Video</Category>
-  <Name>Videotools</Name>
-  <Overview>Vnc Access for Handbrake,MKVToolnix, Etc</Overview>
-  <license>GPL</license>
-  <Project>https://github.com/stevotdo/</Project>
-  <Support>https://github.com/stevotdo/</Support>
+  <Category>MediaServer:Video MediaServer:Music MediaServer:Photos</Category>
+  <Date></Date>
+  <Changes>
+    [center][img width='300px' src=''][/center]
+ 
+[center][font size=4]Videotools Change Log[/font][/center]
+  </Changes>
+  <Name></Name>
+  <Support></Support>
   <Description>
-    Vnc Access for Handbrake,MKVToolnix, Etc[br][br]
-    Vnc Access on port 6080[br][br]
-    [b][span style='color: #E80000;']Directions:[/span][/b][br]
-    [b]/In[/b] : in this path, Location of Video Files to convert.
-	[b]/Out[/b] : in this path, Location for converted video files.
+  Blah blah blah about app etc, add/remove/edit config options , variables , mounts etc
+  below in this description to suit [br]
+
+  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+  [b]/config[/b] Where app should store settings and metadata\logs and configuration[br]
+  [b]/media[/b] Map this to your media etc.[br]
   </Description>
+  <Overview></Overview>
+  <Project>https://github.com/stevotdo/</Project>
   <Registry>https://registry.hub.docker.com/u/stevotdo/docker-videotools-vnc/</Registry>
-  <GitHub>https://github.com/stevotdo/docker-videotools-vnc</GitHub>
-  <Repository>stevotdo/docker-videotools-vnc</Repository>
+  <Repository>https://github.com/stevotdo/</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Environment>
+    <Variable>
+      <Name></Name>
+      <Value></Value>
+    </Variable>
   </Environment>
   <Networking>
     <Mode>bridge</Mode>
-	<Publish>
+      <Publish>
       <Port>
         <HostPort>6080</HostPort>
         <ContainerPort>80</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
-    </Publish>
+   </Publish>
   </Networking>
   <Data>
     <Volume>
@@ -37,19 +46,12 @@
       <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
-	<Volume>
-      <HostDir>/mnt/user/appdata/videotools/In</HostDir>
-      <ContainerDir>/In</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-	<Volume>
-      <HostDir>/mnt/user/appdata/videotools/Out</HostDir>
-      <ContainerDir>/Out</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
   </Data>
-  <WebUI>http://[IP]:[PORT:6080]</WebUI>
+<WebUI>http://[IP]:[PORT:6080</WebUI>
   <Icon>https://raw.githubusercontent.com/stevotdo/docker-templates/master/stevotdo/img/docker-videotools-vnc.png</Icon>
-  <Config Name="Config Directory" Target="/config" Default="/mnt/cache/app_config/videotools" Mode="rw" Description="This path is where Videotools will store it's configuration files." Type="Path" Display="always" Required="true" Mask="false"/>
-  </Config>
+  <ExtraParams></ExtraParams>
+<DonateText></DonateText>
+<DonateLink></DonateLink>
+<DonateImg></DonateImg>
+<BaseImage></BaseImage>
 </Container>
