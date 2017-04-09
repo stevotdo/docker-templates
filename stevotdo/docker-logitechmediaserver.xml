@@ -20,8 +20,8 @@
   </Description>
   <Overview></Overview>
   <Project>https://github.com/stevotdo/</Project>
-  <Registry>https://registry.hub.docker.com/u/stevotdo/logitechmediaserver/</Registry>
-  <Repository>https://github.com/stevotdo/logitechmediaserver</Repository>
+  <Registry>https://registry.hub.docker.com/u/stevotdo/docker-logitechmediaserver/</Registry>
+  <Repository>https://github.com/stevotdo/docker-logitechmediaserver/logitechmediaserver</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
