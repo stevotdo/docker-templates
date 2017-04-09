@@ -20,8 +20,8 @@
   </Description>
   <Overview></Overview>
   <Project>https://github.com/stevotdo/</Project>
-  <Registry>https://registry.hub.docker.com/u/stevotdo/docker-videotools-vnc/</Registry>
-  <Repository>https://github.com/stevotdo/</Repository>
+  <Registry>https://registry.hub.docker.com/u/stevotdo/videotools/</Registry>
+  <Repository>https://github.com/stevotdo/videotools/</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
   <Networking>
