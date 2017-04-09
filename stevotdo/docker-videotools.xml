@@ -41,12 +41,12 @@
       <Mode>rw</Mode>
     </Volume>
 	    <Volume>
-      <HostDir>/mnt/cache/appdata/videotools/In</HostDir>
+      <HostDir>/mnt/cache/appdata/videotools/in</HostDir>
       <ContainerDir>/In</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
 	    <Volume>
-      <HostDir>/mnt/cache/appdata/videotools/Out</HostDir>
+      <HostDir>/mnt/cache/appdata/videotools/out</HostDir>
       <ContainerDir>/Out</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
