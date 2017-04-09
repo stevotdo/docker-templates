@@ -62,7 +62,7 @@
     </Volume>
   </Data>
 <WebUI>http://[IP]:[PORT:9000]</WebUI>
-  <Icon>https://raw.githubusercontent.com/stevotdo/docker-templates/master/stevotdo/img/docker-videotools-vnc.png</Icon>
+  <Icon>http://i.imgur.com/PoUuA3k.png</Icon>
   <ExtraParams></ExtraParams>
 <DonateText></DonateText>
 <DonateLink></DonateLink>
