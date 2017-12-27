@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Beta>True</Beta>
+  <Category>MediaApp:Video</Category>
+  <Name>Hdhomerundvr</Name>
+  <Date></Date>
+  <Changes>
+    [center][img width='300px' src=''][/center]
+ 
+[center][font size=4]Hdhomerundvr Change Log[/font][/center]
+  </Changes>
+  <Name></Name>
+  <Support></Support>
+  <Description>
+  Hdhomerundvr for docker [br]
+
+  [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+    [b]/hdhomerun[/b] : config directory.[br]
+  </Description>
+  <Overview></Overview>
+  <Project>https://github.com/stevotdo/</Project>
+  <Registry>https://hub.docker.com/r/stevotdo/docker-hdhomerundvr//</Registry>
+  <Repository>stevotdo/docker-hdhomerundvr</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+      <Publish>
+      <Port>
+        <HostPort>65001</HostPort>
+        <ContainerPort>65001</ContainerPort>
+        <Protocol>udp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>65002</HostPort>
+        <ContainerPort>65002</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+   </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/cache/appdata/hdhomerundvr</HostDir>
+      <ContainerDir>/hdhomerun</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+<WebUI></WebUI>
+  <Icon></Icon>
+  <ExtraParams></ExtraParams>
+<DonateText></DonateText>
+<DonateLink></DonateLink>
+<DonateImg></DonateImg>
+<BaseImage></BaseImage>
+</Container>
